@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    background-image: url(background_img_1.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.655);
+    background-blend-mode: color;
+
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.div11 {
+    margin: auto;
+}
+
+.div2 {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10vh;
+    height: 75vh;
+}
+
+.div21 {
+    display: flex;
+    height: 50vh;
+    width: 42vw;
+}
+
+.div22 {
+    height: 50vh;
+    width: 35vw;
+}
+
+.div22 img {
+    width: 35vw;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.sc {
+    margin: auto;
+}
+
+.div3 {
+    display: flex;
+    background-image: url(cars.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.67);
+    background-blend-mode: color;
+}
+
+.div31 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: auto;
+    grid-row-gap: 10vh;
+    width: 80vw;
+    height: 60vh;
+    margin: auto;
+}
+
+.grid {
+    width: 25vw;
+    display: flex;
+}
+
+.grid1 {
+    width: 4vw;
+    color: white;
+}
+
+.grid2 {
+    width: 21vw;
+    color: white;
+}
+
+
+
+
+footer {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.div4 {
+    margin: auto;
+    width: 80vw;
+    height: 90vh;
+    background-color: whitesmoke;
+    padding-top: 12vh;
+}
+
+.div41 {
+    display: flex;
+}
+
+.div41 h2 {
+    margin: auto;
+}
+
+.div42 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.green {
+    display: flex;
+    width: 25vw;
+    height: 67vh;
+    background-color: white;
+}
+
+.box {
+    padding: 3vh;
+    width: 22vw;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+li {
+    font-size: 1.3rem;
+}
+
+#grey {
+    color: rgb(142, 138, 138);
+}
+
+.ul {
+    width: 22vw;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#li1:before {
+
+    content: '';
+
+    display: inline-block;
+
+    height: 10px;
+
+    width: 10px;
+
+    background-size: 10px;
+    background-image: url("map.png");
+
+    background-repeat: no-repeat;
+
+    margin-right: 5px;
+
+}
+
+#li2:before {
+
+    content: '';
+
+    display: inline-block;
+
+    height: 10px;
+
+    width: 10px;
+
+    background-size: 10px;
+    background-image: url("telephone.png");
+
+    background-repeat: no-repeat;
+
+    margin-right: 5px;
+
+}
+
+#li3:before {
+
+    content: '';
+
+    display: inline-block;
+
+    height: 10px;
+
+    width: 10px;
+
+    background-size: 10px;
+    background-image: url("navigation\ .png");
+
+    background-repeat: no-repeat;
+
+    margin-right: 5px;
+
+}
+
+.black {
+    display: flex;
+}
+
+#unique {
+    font-size: 1rem;
+    color: rgb(242, 159, 4);
+    margin-left: 0.5vw;
+}
+
+.black1 {
+    width: 6vw;
+    padding: 1vw;
+}
+
+.black2 {
+    padding: 1vw;
+    margin-left: 4.1vw;
+}
+
+.black3 {
+    padding: 1vw;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon img {
+    width: 1.5vw;
+    padding: 0.4vw;
+}
+
+.grid1 img {
+    width: 3vw;
+}
+/* @media screen and (max-width:1500px) {
+    .div2{
+        display:block;
+    }
+    .div21{
+        width: 100%;
+    }
+} */
